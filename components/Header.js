@@ -19,6 +19,7 @@ function Header() {
                 src={logo}
                 width={200}
                 height={100}
+                alt="logo"
             />
         </header>
     )

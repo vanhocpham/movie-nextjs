@@ -12,6 +12,7 @@ const Thumbnail = forwardRef(({result}, ref) => {
                 src={`${BASE_URL}${result.backdrop_path || result.poster_path}` || `${BASE_URL}${result.poster_path}`} 
                 height={1080}
                 width={1920}
+                alt="movive-layout-image"
             />
 
             <div className="p-2">
@@ -32,5 +33,7 @@ const Thumbnail = forwardRef(({result}, ref) => {
         </div>
     )
 })
+
+Thumbnail.displayName = 'Thumbnail';
 
 export default Thumbnail
