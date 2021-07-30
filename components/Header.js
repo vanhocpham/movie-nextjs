@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logo from '../public/images/hulu-white.png'
+import logo from '../public/images/logo-white.png'
 import HeaderItems from './HeaderItems'
 import {BadgeCheckIcon, CollectionIcon, HomeIcon, LightningBoltIcon, SearchIcon, UserIcon} from "@heroicons/react/outline"
 
